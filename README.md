@@ -57,7 +57,6 @@ Navigate to the directory where you extracted the project files:- cd path/to/you
 
 Install the required Python libraries by running:
 
-
 pip install pandas yfinance seaborn matplotlib fredapi plotly prophet feedparser nltk
 
 
