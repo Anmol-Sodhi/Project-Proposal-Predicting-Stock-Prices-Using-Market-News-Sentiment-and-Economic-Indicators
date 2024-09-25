@@ -1,5 +1,7 @@
 Stock Analysis and Prediction Tool
+
 Overview
+
 This tool analyzes and predicts stock prices using historical data, technical indicators, and sentiment analysis. It generates visualizations to help investors make informed decisions by understanding potential future stock movements and correlations with economic indicators.
 
 
@@ -49,7 +51,7 @@ Ensure you select the option to "Add Python to PATH" during installation.
 
 Open the Command Prompt (Windows) or Terminal (Mac/Linux).
 
-Navigate to the directory where you extracted the project files:- cd path/to/your/project/folder
+Navigate to the directory where you extracted the project files:- cd path/to/your/project/stock_prediction
 
 
 
