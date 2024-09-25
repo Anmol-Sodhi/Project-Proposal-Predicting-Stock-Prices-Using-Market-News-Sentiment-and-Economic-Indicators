@@ -66,7 +66,7 @@ Note: If you encounter any errors during installation, you might need to upgrade
 
 
 4. Set Up NLTK Data
-5. 
+ 
 Run the following command to download necessary NLTK data:
 
 python -m nltk.downloader vader_lexicon
@@ -86,7 +86,7 @@ These files contain lists of valid stock tickers and are required for the script
 
 
 6. Run the Script
-7. 
+ 
 In the Command Prompt or Terminal, ensure you're in the project directory.
 
 Run the script by typing:
@@ -133,6 +133,7 @@ What It Is: A grid showing how the stock price correlates with various economic 
 
 
 Understanding the Visualizations
+
 1. Sentiment Analysis Graph
 Positive Terms (Blue Bars):
 
@@ -157,6 +158,7 @@ Indicators of potential upward trends in stock price.
 Bearish Signals (Red Triangles):
 
 Indicators of potential downward trends in stock price.
+
 3. Correlation Heatmap
 Color-Coded Grid:
 
@@ -171,6 +173,7 @@ Helps you understand which economic factors may impact the stock price.
 
 
 Important Notes
+
 Sequence of Graphs:
 
 First, the Sentiment Analysis Graph will appear.
