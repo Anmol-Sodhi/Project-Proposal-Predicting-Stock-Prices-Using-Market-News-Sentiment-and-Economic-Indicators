@@ -46,6 +46,7 @@ Ensure you select the option to "Add Python to PATH" during installation.
 
 
 3. Install Required Libraries
+
 Open the Command Prompt (Windows) or Terminal (Mac/Linux).
 
 Navigate to the directory where you extracted the project files:- cd path/to/your/project/folder
@@ -63,6 +64,7 @@ Note: If you encounter any errors during installation, you might need to upgrade
 
 
 4. Set Up NLTK Data
+5. 
 Run the following command to download necessary NLTK data:
 
 python -m nltk.downloader vader_lexicon
@@ -82,11 +84,12 @@ These files contain lists of valid stock tickers and are required for the script
 
 
 6. Run the Script
+7. 
 In the Command Prompt or Terminal, ensure you're in the project directory.
 
 Run the script by typing:
 
-python stock_predictor.py
+python stocks.py
 
 
 
@@ -109,48 +112,79 @@ Enter the tickers (comma-separated): AAPL, MSFT
 etc
 
 
-8. View the Outputs
-The script will perform the analysis and generate visualizations, which include:
+Step 8: View the Outputs
 
-Stock Analysis Graphs:
+The script will perform the analysis and generate several visualizations.
 
-Displays Bollinger Bands, Prophet Forecasts, and Bullish/Bearish Signals.
-Sentiment Analysis Graphs:
+Sentiment Analysis Graph
 
-Shows the contribution of specific positive and negative terms to the overall sentiment.
-Correlation Heatmaps:
+What It Is: A graph showing how specific words from news articles contribute to the overall sentiment about the stock.
+Action Required: Close the sentiment graph window after viewing it to proceed to the next graphs.
+Stock Analysis Graph
 
-Illustrates the correlation between stock prices and various economic indicators.
-Note: The script may take some time to run, especially if analyzing multiple tickers.
+What It Is: A graph displaying the stock's historical prices, predictions, and technical indicators.
+Correlation Heatmap
+
+What It Is: A grid showing how the stock price correlates with various economic indicators.
 
 
 
-***Understanding the Visualizations***
-Stock Analysis Graphs
-Bollinger Bands:
 
-Blue lines representing the upper and lower bands.
-Helps identify volatility and potential price movements.
-Prophet Forecast:
-
-Purple line showing predicted future stock prices.
-Bullish Signals:
-
-Green triangles indicating potential upward trends.
-Bearish Signals:
-
-Red triangles indicating potential downward trends.
-Sentiment Analysis Graphs
+Understanding the Visualizations
+1. Sentiment Analysis Graph
 Positive Terms (Blue Bars):
 
-Words that contribute positively to investor sentiment.
+Words that have a positive impact on investor sentiment.
 Negative Terms (Red Bars):
 
-Words that contribute negatively to investor sentiment.
-Understanding the Graph:
+Words that have a negative impact on investor sentiment.
+How to Read It:
 
-The height of each bar represents the average sentiment contribution of that term.
-Helps identify key factors influencing market perception.
+The height of each bar represents how much that word influences the overall sentiment.
+Helps identify key factors affecting market perception of the stock.
+2. Stock Analysis Graph
+Bollinger Bands (Blue Lines):
+
+Upper and lower bands that help identify volatility and potential price movements.
+Prophet Forecast (Purple Line):
+
+Predicted future stock prices based on historical data.
+Bullish Signals (Green Triangles):
+
+Indicators of potential upward trends in stock price.
+Bearish Signals (Red Triangles):
+
+Indicators of potential downward trends in stock price.
+3. Correlation Heatmap
+Color-Coded Grid:
+
+Shows how closely related the stock price is to various economic indicators.
+Red Areas: Strong positive correlation.
+Blue Areas: Strong negative correlation.
+How to Read It:
+
+Helps you understand which economic factors may impact the stock price.
+
+
+
+
+Important Notes
+Sequence of Graphs:
+
+First, the Sentiment Analysis Graph will appear.
+You need to close this graph window to proceed.
+Then, the Stock Analysis Graph and Correlation Heatmap will appear.
+Closing Graph Windows:
+
+To close a graph, click the 'X' button on the window.
+Alternatively, press Alt + F4 (Windows) or Command + W (Mac) while the window is active.
+Internet Connection:
+
+Ensure you have a stable internet connection throughout the process.
+Processing Time:
+
+The script may take several minutes to run, especially if analyzing multiple tickers.
+Please be patient and wait for the graphs to appear.
 
 
 
