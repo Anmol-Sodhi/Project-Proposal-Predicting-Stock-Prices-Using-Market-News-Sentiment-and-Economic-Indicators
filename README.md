@@ -105,6 +105,8 @@ How to Read It:
 
 The height of each bar represents how much that word influences the overall sentiment.
 Helps identify key factors affecting market perception of the stock.
+
+
 2. Stock Analysis Graph
 Bollinger Bands (Blue Lines):
 
