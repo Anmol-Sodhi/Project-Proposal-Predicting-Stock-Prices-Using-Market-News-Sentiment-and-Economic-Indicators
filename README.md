@@ -157,7 +157,7 @@ Helps you understand which economic factors may impact the stock price.
 
 
 
-Important Notes
+***IMPORTANT***
 
 Sequence of Graphs:
 
