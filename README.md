@@ -27,7 +27,18 @@ Option 1: Clone into the Repository via terminal
 2.Install Dependencies:
 
 Ensure you have Python 3.8.19 installed.
+
+
 Run the following command (on command prompt for windows / terminal for mac) to install the necessary Python packages:
+
+pip install -r requirements.txt
+
+
+
+**********If encountering problem with python version only then*******
+Alternatively if you are encountering problems wiht python version install conda and create virtual env by running 
+
+conda create --name myenv python=3.8.19
 
 pip install -r requirements.txt
 
