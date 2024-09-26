@@ -35,12 +35,18 @@ pip install -r requirements.txt
 
 
 
+
+
+
 **********If encountering problem with python version only then*******
 Alternatively if you are encountering problems wiht python version install conda and create virtual env by running 
 
 conda create --name myenv python=3.8.19
 
 pip install -r requirements.txt
+
+
+
 
 
 
@@ -56,6 +62,8 @@ These files contain lists of valid stock tickers and are required for the script
 
 
 
+
+
 4. Run the Script
  
 In the Command Prompt or Terminal, ensure you're in the project directory.
@@ -63,6 +71,8 @@ In the Command Prompt or Terminal, ensure you're in the project directory.
 Run the script by typing:
 
 python stocks.py
+
+
 
 
 
@@ -83,6 +93,8 @@ or
 
 Enter the tickers (comma-separated): AAPL, MSFT
 etc
+
+
 
 
 Step 6: View the Outputs
