@@ -8,15 +8,10 @@ This tool analyzes and predicts stock prices using historical data, technical in
 
 
 Prerequisites
-Before running the tool, please ensure you have the following:
 
-A Computer with Internet Access
+Python Version: This project is designed to work with Python 3.8.19. Using a different Python version may cause compatibility issues.
+Dependencies: The required Python packages are listed in the requirements.txt file. Make sure to install all dependencies before running the script.
 
-The tool fetches data from the internet, so a stable connection is necessary.
-Python 3 Installed
-
-Python is the programming language used for this tool.
-You can download Python from the official website: Download Python.
 During installation, make sure to check the box that says "Add Python to PATH".
 
 
@@ -24,56 +19,22 @@ During installation, make sure to check the box that says "Add Python to PATH".
 
 Setup Instructions
 1. Download the Project Files
-Option 1: Clone the Repository
-
-If you're familiar with Git, you can clone the repository using the command:
-
-bash
-Copy code
-git clone https://github.com/yourusername/yourrepository.git
-Option 2: Download as ZIP
-
-Visit the repository page.
-Click on the "Code" button and select "Download ZIP".
-Extract the downloaded ZIP file to a folder on your computer.
-
-
-2. Install Python 3
-If you haven't installed Python 3:
-
-Download it from here https://www.python.org/downloads/.
-Run the installer and follow the on-screen instructions.
-Ensure you select the option to "Add Python to PATH" during installation.
+Option 1: Clone into the Repository via terminal
 
 
 
-3. Install Required Libraries
 
-Open the Command Prompt (Windows) or Terminal (Mac/Linux).
+2.Install Dependencies:
 
-Navigate to the directory where you extracted the project files:- cd path/to/your/project/stock_prediction
+Ensure you have Python 3.8.19 installed.
+Run the following command (on command prompt for windows / terminal for mac) to install the necessary Python packages:
 
-
-
-Install the required Python libraries by running:
-
-pip install pandas yfinance seaborn matplotlib fredapi plotly prophet feedparser nltk
-
-
-Note: If you encounter any errors during installation, you might need to upgrade pip by running: python -m pip install --upgrade pip
+pip install -r requirements.txt
 
 
 
-4. Set Up NLTK Data
- 
-Run the following command to download necessary NLTK data:
 
-python -m nltk.downloader vader_lexicon
-
-
-
-5. Prepare the Ticker List Files
-Ensure that the following CSV files are placed in the same directory as the script:
+3.Ensure that the following CSV files are placed in the same directory as the script everytime you run it:
 
 Russel_3000_ticker_list.csv
 TSX List.csv
@@ -84,7 +45,7 @@ These files contain lists of valid stock tickers and are required for the script
 
 
 
-6. Run the Script
+4. Run the Script
  
 In the Command Prompt or Terminal, ensure you're in the project directory.
 
@@ -94,7 +55,7 @@ python stocks.py
 
 
 
-7. Enter Tickers When Prompted
+5. Enter Tickers When Prompted
 The script will prompt you to:
 
 
@@ -113,7 +74,7 @@ Enter the tickers (comma-separated): AAPL, MSFT
 etc
 
 
-Step 8: View the Outputs
+Step 6: View the Outputs
 
 The script will perform the analysis and generate several visualizations.
 
