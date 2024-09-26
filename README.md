@@ -181,7 +181,7 @@ Please be patient and wait for the graphs to appear.
 --------------------------------------------------------------------------------
 
 
-When the output is generated , first the snentiment graph will appear, close that and then the stock prediction graph adn economic indicator grid will appear.
+When the output is generated , first the sentiment graph will appear, close that and then the stock prediction graph and economic indicator grid will appear.
 
 
 
