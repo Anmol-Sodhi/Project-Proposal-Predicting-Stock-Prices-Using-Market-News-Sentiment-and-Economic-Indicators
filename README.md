@@ -7,16 +7,6 @@ This tool analyzes and predicts stock prices using historical data, technical in
 
 
 
-Prerequisites
-
-Python Version: This project is designed to work with Python 3.8.19. Using a different Python version may cause compatibility issues.
-Dependencies: The required Python packages are listed in the requirements.txt file. Make sure to install all dependencies before running the script.
-
-During installation, make sure to check the box that says "Add Python to PATH".
-
-
-
-
 Setup Instructions
 Step 1: Download Conda
 
