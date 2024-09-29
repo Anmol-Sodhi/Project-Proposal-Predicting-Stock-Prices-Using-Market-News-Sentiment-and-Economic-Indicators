@@ -18,30 +18,27 @@ During installation, make sure to check the box that says "Add Python to PATH".
 
 
 Setup Instructions
-1. Download the Project Files
-Option 1: Clone into the Repository via terminal
+Step 1: Download Conda
+
+Go to the official Conda website(https://docs.conda.io) and download the installer for your operating system (Windows, macOS, or Linux).
+Follow the installation instructions for your platform.
 
 
 
+Step 2: Download the Project Files
 
-2.Install Dependencies:
+Clone the project repository using the terminal:
 
-Ensure you have Python 3.8.19 installed.
+git clone <repository-url>
+cd <project-directory>
 
+Install Dependencies
 
-Run the following command (on command prompt for windows / terminal for mac) to install the necessary Python packages:
+Create a new Conda environment with Python 3.8.19 by running the following command and Install the necessary dependencies:
 
-pip install -r requirements.txt
+conda create --name test_env python=3.8.19
 
-
-
-
-
-
-**********If encountering problem with python version only then*******
-Alternatively if you are encountering problems wiht python version install conda and create virtual env by running 
-
-conda create --name myenv python=3.8.19
+conda activate test_env
 
 pip install -r requirements.txt
 
