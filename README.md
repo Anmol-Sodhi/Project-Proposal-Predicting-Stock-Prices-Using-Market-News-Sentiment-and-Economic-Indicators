@@ -29,9 +29,9 @@ Step 2: Download the Project Files
 
 Clone the project repository using the terminal:
 
-git clone <repository-url>
+git clone (repository-url)
 
-cd <project-directory>
+cd (your project-directory)
 
 Install Dependencies
 
